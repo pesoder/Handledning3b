@@ -3,4 +3,22 @@
   <groupId>Handledning3b</groupId>
   <artifactId>Handledning3b</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  	<dependencies>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.9.1</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>6.9.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
